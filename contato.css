@@ -1,0 +1,47 @@
+body {
+  background-color: bisque;
+  max-width: 70%;
+  margin: 0 auto;
+  text-align: justify;
+  font-size: 1.1rem;
+}
+
+header nav ul {
+  list-style-type: none; 
+  display: flex; 
+  justify-content: flex-end;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: black; 
+  padding: 10px 20px; 
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-top: 3px;
+}
+
+button {
+  width: 80px;
+  margin: 8px;
+  background-color: brown;
+  color: white;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: rgb(208, 61, 61);
+  cursor: pointer;
+}
+
